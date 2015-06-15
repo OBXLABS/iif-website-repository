@@ -2,19 +2,24 @@
 
 /*Hello World*/
 
+/* -- Header -- */
+header .iif-logo {
+  padding-top: 45px;
+}
 header .site-title h1 {
   font-family: 'exoextrabold';
-  font-size: 1.8em;
-  font-
+  font-size: 1.6em;
   text-align: center;
   color: #eda73d;
   padding-top: 70px;
-  margin-bottom: 0px;
+  margin-bottom: -3px;
+  text-transform: uppercase;
 }
 header .site-title p {
   font-family: 'exoregular';
   font-size: 1em;
   text-align: center;
+  color: #919191;
 }
 
 
