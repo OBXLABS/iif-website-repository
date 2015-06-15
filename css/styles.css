@@ -1,3 +1,24 @@
 /* IIF main stylesheet */
 
 /*Hello World*/
+
+
+
+
+section.intro .panel{
+  border:2px solid #feb900;
+  background:#fff;
+  -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+height:184px;
+}
+
+section.intro p{
+  fon-size:1.313em;
+
+}
+
+section.intro img{
+  width:235px;
+}
