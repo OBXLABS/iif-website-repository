@@ -1,7 +1,7 @@
 /* IIF main stylesheet */
 
-/* -- HEADER -- */
-header .site-title h1 {
+/*Hello World*/
+
 
   font-family: 'exoextrabold';
   font-size: 1.8em;
@@ -15,6 +15,24 @@ header .site-title p {
   font-family: 'exoregular';
   font-size: 1em;
   text-align: center;
+
+
+
+
+/* -- Intro --*/
+section.intro .panel{
+  border:2px solid #feb900;
+  background:#fff;
+  -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+height:184px;
 }
 
-/* -- NAVIGATION -- */
+section.intro p{
+  fon-size:1.313em;
+}
+
+section.intro img{
+  width:235px;
+}
