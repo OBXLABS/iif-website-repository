@@ -3,12 +3,16 @@
 /* -- HEADER -- */
 header .site-title h1 {
 
-  font-family: 'dosisregular';
+  font-family: 'exoextrabold';
   font-size: 1.8em;
+  font-
   text-align: center;
-  color: red;
+  color: #eda73d;
+  padding-top: 70px;
+  margin-bottom: 0px;
 }
 header .site-title p {
+  font-family: 'exoregular';
   font-size: 1em;
   text-align: center;
 }
