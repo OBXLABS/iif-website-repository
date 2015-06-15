@@ -1,9 +1,16 @@
 /* IIF main stylesheet */
 
+/* -- HEADER -- */
 header .site-title h1 {
+
+  font-family: 'dosisregular';
   font-size: 1.8em;
   text-align: center;
-}header .site-title p {
+  color: red;
+}
+header .site-title p {
   font-size: 1em;
   text-align: center;
 }
+
+/* -- NAVIGATION -- */
