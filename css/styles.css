@@ -1,5 +1,9 @@
 /* IIF main stylesheet */
 
-/*Hello World*/
-
-/* hello*/
+header .site-title h1 {
+  font-size: 1em;
+  text-align: center;
+}header .site-title p {
+  font-size: .5em;
+  text-align: center;
+}
