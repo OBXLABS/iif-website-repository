@@ -15,24 +15,105 @@ header .site-title p {
   font-family: 'exoregular';
   font-size: 1em;
   text-align: center;
+}
 
 
-
-
+/*=========================================================/*
 /* -- Intro --*/
+
+section.intro{
+  margin-bottom:20px;
+}
+
 section.intro .panel{
   border:2px solid #feb900;
   background:#fff;
   -webkit-border-radius: 20px;
--moz-border-radius: 20px;
-border-radius: 20px;
-height:184px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+
 }
 
 section.intro p{
-  fon-size:1.313em;
+  font-family:'dosisregular';
+  font-size:1.2em;
+  line-height:1.5em;
 }
 
 section.intro img{
+  padding-top:20px;
   width:235px;
+}
+
+section.outputs h4{
+  font-family:'exoregular';
+  font-size:1.1em;
+  text-transform:uppercase;
+  padding-bottom:5px;
+  border-bottom:2px solid #bbb;
+}
+
+sup{
+  font-size:0.3em;
+}
+
+section.outputs{
+  margin-bottom:20px;
+}
+
+section.outputs img{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+section.outputs p{
+  padding-top:10px;
+  font-family:'dosisregular';
+  font-size:1em;
+  line-height:1.3em;
+}
+
+section.outputs .button{
+  background:#fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border:1px solid #666;
+  color:#666;
+  font-family:'dosisregular';
+  font-size:1em;
+  padding:0.8rem 2rem 0.8625rem 2rem;
+  margin-left:30%;
+}
+
+section.outputs .button:hover{
+  color:white;
+  background:#feb900;
+  border:1px solid #666;
+
+}
+
+section.outputs .button:hover>.fi{
+  color:white;
+}
+
+section.outputs .button .fi{
+  color: #666;
+  padding-left:5px;
+  line-height:0.5em
+}
+
+footer{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px 10px 0 0;
+  background:#555;
+}
+
+footer img{
+  -webkit-filter: invert(1);
+  -moz-filter: invert(1);
+  filter:invert(1);
+  opacity:0.4;
 }
