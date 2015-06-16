@@ -1,11 +1,12 @@
 /* IIF main stylesheet */
 
-/*Hello World*/
-
 /* -- Header -- */
+
 header .iif-logo {
   padding-top: 45px;
+  margin-left: -15px;
 }
+
 header .site-title h1 {
   font-family: 'exoextrabold';
   font-size: 1.6em;
@@ -15,6 +16,7 @@ header .site-title h1 {
   margin-bottom: -3px;
   text-transform: uppercase;
 }
+
 header .site-title p {
   font-family: 'exoregular';
   font-size: 1em;
@@ -22,6 +24,134 @@ header .site-title p {
   color: #919191;
 }
 
+/* -- Navigation -- */
+
+nav {
+  background-color: transparent !important;
+}
+
+nav section {
+  background-color: transparent !important;
+
+}
+
+nav section ul {
+  background-color: transparent !important;
+}
+
+nav section ul li {
+  background-color: transparent !important;
+  border-top: thin #919191 solid;
+  padding: 0 24px;
+
+}
+
+nav section ul li a {
+  background-color: transparent !important;
+  font-family: 'dosisregular' !important;
+  font-size: 1em !important;
+  color: black !important;
+  text-transform: uppercase !important;
+}
+
+/* -- Image Slider -- */
+
+section .slider {
+  font-family: 'dosisregular';
+  margin-top: 15px;
+  margin-bottom: 0px !important;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding: 0 15px 0 0 !important;
+}
+
+section .slider img {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+section .slider .panel {
+  position: relative;
+  z-index: 100;
+  margin-top: -73px;
+  border: none;
+  filter:alpha(opacity=85);
+  opacity:.85;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+section .slider .panel p {
+  margin-top: -5px;
+  color: white;
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+section .slider .panel i {
+  color: white;
+  font-size: 2em;
+  line-height: 1em;
+  margin-left: 200px;
+}
+
+.slick-dots {
+  display: none !important;
+}
+
+/* -- Categories -- */
+
+section .categories {
+  margin-top: 15px;
+  padding: 0 !important;
+}
+
+section .categories div {
+  border: none;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  border-radius: 15px !important;
+  margin-bottom: 13px;
+}
+
+section .categories div h5 {
+  font-family: 'dosisregular';
+  color:white;
+  text-transform: uppercase;
+}
+
+section .categories div p {
+  font-family: 'dosisregular';
+  color:white;
+}
+
+section .categories div i {
+  color:white;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.c1 {
+  background-color: #cf0501;
+}
+
+.c2 {
+  background-color: #fbab1d;
+}
+
+.c3 {
+  background-color: #fe5200;
+}
+
+.c4 {
+  background-color: #03afef;
+}
 
 /*=========================================================/*
 /* -- Intro --*/
