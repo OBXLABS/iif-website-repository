@@ -153,7 +153,78 @@ section .categories div i {
   background-color: #03afef;
 }
 
-/*=========================================================/*
+/*=========================================================*/
+
+/* -- Social Media -- */
+.social-media ul{
+  margin-left:0rem;
+  margin-top:10px;
+}
+
+.social-media li{
+width:30px;
+height:30px;
+border-radius:50%;
+-webkit-border-radius:50%;
+-moz-border-radius:50%;
+padding:0;
+margin-left:0;
+margin-right:4px;
+opacity:0.8;
+-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+}
+
+.social-media li:hover{
+  opacity:1;
+}
+
+.social-media .fi{
+  font-size:1.4em;
+  text-align:center;
+  line-height:1.45em;
+  padding-left:0.33em;
+}
+
+.social-media li a .fi{
+  color:white;
+  text-shadow: 0 1px 1px #7D7D7D;
+}
+.has-tip{
+  border-bottom: dotted 0px #CCCCCC;
+  cursor:pointer;
+}
+
+.has-tip:hover, .has-tip:focus {
+  border-bottom: dotted 0px #003f54;
+}
+
+.mail{
+  background:#6d6e71;
+}
+
+.facebook{
+  background:#4d67a4;
+}
+
+.youtube{
+  background:#cc181e;
+}
+
+.vimeo{
+  background:#3fa6e7;
+}
+
+.blogger{
+  background:#ff9334;
+}
+
+.flickr{
+  background:#dddddd;
+}
+
+
 /* -- Intro --*/
 
 section.intro{
@@ -166,7 +237,6 @@ section.intro .panel{
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-
 }
 
 section.intro p{
@@ -179,6 +249,8 @@ section.intro img{
   padding-top:20px;
   width:235px;
 }
+
+/* -- Outputs -- */
 
 section.outputs h4{
   font-family:'exoregular';
@@ -226,7 +298,6 @@ section.outputs .button:hover{
   color:white;
   background:#feb900;
   border:1px solid #666;
-
 }
 
 section.outputs .button:hover>.fi{
@@ -239,6 +310,7 @@ section.outputs .button .fi{
   line-height:0.5em
 }
 
+/* -- Footer -- */
 footer{
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -246,9 +318,57 @@ footer{
   background:#555;
 }
 
+footer .footer-wrapper{
+  padding:25px;
+}
+
+footer h5, footer p, footer span, footer a{
+  font-family:'dosisregular';
+}
+
+footer h5{
+  font-size:1em;
+  color:#808080;
+}
+
+footer .partners ul{
+  margin-left:-2.3rem;
+}
+
+footer .partners img{
+  padding:10px 15px;
+
+}
+
 footer img{
   -webkit-filter: invert(1);
   -moz-filter: invert(1);
   filter:invert(1);
   opacity:0.4;
+}
+
+footer .contacts p{
+  font-size:1em;
+  color:#808080;
+  margin:0;
+  padding:0;
+}
+
+footer .contacts a{
+  color:#03afef;
+  font-size:0.9em;
+}
+
+footer div.labs-logos{
+  margin-bottom:20px;
+}
+
+footer div.labs-logos img{
+  padding-right:10px;
+}
+
+footer span.copyright{
+  font-size:0.8em;
+  color:#808080;
+  margin-bottom:10px;
 }
