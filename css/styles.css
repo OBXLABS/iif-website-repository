@@ -141,16 +141,16 @@ section .slider img {
 section .slider .panel {
   position: relative;
   z-index: 100;
-  margin-top: -73px;
+  margin-top: -98px;
   border: none;
   filter:alpha(opacity=85);
   opacity:.85;
-  -webkit-border-bottom-left-radius: 15px;
-  -moz-border-bottom-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  -webkit-border-bottom-right-radius: 15px;
-  -moz-border-bottom-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 section .slider .panel p {
@@ -184,7 +184,7 @@ section .categories div {
   -moz-border-radius: 20px !important;
   border-radius: 20px !important;
   margin-bottom: 15px;
-  height:127px;
+  height:121px;
 }
 
 section .categories div h5 {
