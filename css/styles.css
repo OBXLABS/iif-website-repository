@@ -32,26 +32,91 @@ nav {
 
 nav section {
   background-color: transparent !important;
-
 }
 
 nav section ul {
   background-color: transparent !important;
+  border: 2px #aaa solid;
+  width:100% !important;
+  background:#fff !important;
 }
 
 nav section ul li {
   background-color: transparent !important;
-  border-top: thin #919191 solid;
-  padding: 0 24px;
+  border-left: 2px #aaa solid;
+  margin:0;
+  text-align: center;
+  width:14.286%;
+}
 
+nav section ul li:nth-child(1){
+  border-left: 0px #aaa solid;
 }
 
 nav section ul li a {
-  background-color: transparent !important;
+  background-color: white !important;
   font-family: 'dosisregular' !important;
   font-size: 1em !important;
   color: black !important;
   text-transform: uppercase !important;
+  padding: 0 15px;
+}
+
+nav section ul li a:hover{
+  background-color: #eee !important;
+}
+
+nav section ul li:nth-child(2) a:hover{
+  background-color: #cf0501 !important;
+}
+
+nav section ul li:nth-child(3) a:hover{
+  background-color: #fbab1d !important;
+}
+
+nav section ul li:nth-child(4) a:hover{
+  background-color: #fe5200 !important;
+}
+
+nav section ul li:nth-child(5) a:hover{
+  background-color: #03afef !important;
+}
+
+@media (max-width: 640px) {
+  .top-bar .name{
+
+  }
+}
+.top-bar .toggle-topbar a{
+  background:#fff;
+  height:100%;
+  font-family: 'dosisregular';
+  text-transform:uppercase;
+  font-size:1.2em;
+  color:#000 !important;
+}
+
+.top-bar .toggle-topbar.menu-icon a span::after {
+  content: "";
+  display: block;
+  height: 0;
+  position: absolute;
+  margin-top: -8px;
+  top: 50%;
+  right: 0.9375rem;
+  box-shadow: 0 0 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000;
+  width: 16px;
+}
+
+.search-bar{
+  position:relative;
+}
+
+.magnifier{
+  position:absolute;
+  top:62px;
+  color:#eee;
+  right:30px;
 }
 
 /* -- Image Slider -- */
@@ -67,9 +132,10 @@ section .slider {
 }
 
 section .slider img {
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 100%;
 }
 
 section .slider .panel {
@@ -114,10 +180,11 @@ section .categories {
 
 section .categories div {
   border: none;
-  -webkit-border-radius: 15px !important;
-  -moz-border-radius: 15px !important;
-  border-radius: 15px !important;
-  margin-bottom: 13px;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  margin-bottom: 15px;
+  height:127px;
 }
 
 section .categories div h5 {
@@ -129,6 +196,7 @@ section .categories div h5 {
 section .categories div p {
   font-family: 'dosisregular';
   color:white;
+  line-height:1.3em;
 }
 
 section .categories div i {
